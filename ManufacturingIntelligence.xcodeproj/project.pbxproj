@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BAEED560438AEB7F06C8B79 /* Pods_ManufacturingIntelligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FBB0938B6CE76B1CAED9C0 /* Pods_ManufacturingIntelligence.framework */; };
+		6333190A20AA695900459DB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6333190920AA695900459DB8 /* GoogleService-Info.plist */; };
 		63FFAB5E20A93435009ACBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFAB5D20A93435009ACBFC /* AppDelegate.swift */; };
 		63FFAB6020A93435009ACBFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFAB5F20A93435009ACBFC /* ViewController.swift */; };
 		63FFAB6320A93435009ACBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FFAB6120A93435009ACBFC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E34008A95F8619FCCAB1C2F /* Pods-ManufacturingIntelligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManufacturingIntelligence.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManufacturingIntelligence/Pods-ManufacturingIntelligence.debug.xcconfig"; sourceTree = "<group>"; };
+		6333190920AA695900459DB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63FFAB5A20A93435009ACBFC /* ManufacturingIntelligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManufacturingIntelligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FFAB5D20A93435009ACBFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63FFAB5F20A93435009ACBFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		63FFAB6420A93436009ACBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63FFAB6720A93436009ACBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63FFAB6920A93436009ACBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB48808D5EEEF71B6675FA2 /* Pods-ManufacturingIntelligence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManufacturingIntelligence.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManufacturingIntelligence/Pods-ManufacturingIntelligence.release.xcconfig"; sourceTree = "<group>"; };
+		D8FBB0938B6CE76B1CAED9C0 /* Pods_ManufacturingIntelligence.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManufacturingIntelligence.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAEED560438AEB7F06C8B79 /* Pods_ManufacturingIntelligence.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044F27A093446F2C2B01C55C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E34008A95F8619FCCAB1C2F /* Pods-ManufacturingIntelligence.debug.xcconfig */,
+				6BB48808D5EEEF71B6675FA2 /* Pods-ManufacturingIntelligence.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31284A73A40A5DF37FB17756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8FBB0938B6CE76B1CAED9C0 /* Pods_ManufacturingIntelligence.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6333190420AA686300459DB8 /* 01. Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "01. Model";
+			sourceTree = "<group>";
+		};
+		6333190520AA686E00459DB8 /* 02. Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "02. Views";
+			sourceTree = "<group>";
+		};
+		6333190620AA687300459DB8 /* 03. Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63FFAB5F20A93435009ACBFC /* ViewController.swift */,
+			);
+			path = "03. Controllers";
+			sourceTree = "<group>";
+		};
+		6333190720AA687900459DB8 /* 04. Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "04. Extensions";
+			sourceTree = "<group>";
+		};
+		6333190820AA687F00459DB8 /* 05. Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "05. Services";
+			sourceTree = "<group>";
+		};
 		63FFAB5120A93434009ACBFC = {
 			isa = PBXGroup;
 			children = (
 				63FFAB5C20A93435009ACBFC /* ManufacturingIntelligence */,
 				63FFAB5B20A93435009ACBFC /* Products */,
+				044F27A093446F2C2B01C55C /* Pods */,
+				31284A73A40A5DF37FB17756 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +116,17 @@
 		63FFAB5C20A93435009ACBFC /* ManufacturingIntelligence */ = {
 			isa = PBXGroup;
 			children = (
+				6333190820AA687F00459DB8 /* 05. Services */,
+				6333190720AA687900459DB8 /* 04. Extensions */,
+				6333190620AA687300459DB8 /* 03. Controllers */,
+				6333190520AA686E00459DB8 /* 02. Views */,
+				6333190420AA686300459DB8 /* 01. Model */,
 				63FFAB5D20A93435009ACBFC /* AppDelegate.swift */,
-				63FFAB5F20A93435009ACBFC /* ViewController.swift */,
 				63FFAB6120A93435009ACBFC /* Main.storyboard */,
 				63FFAB6420A93436009ACBFC /* Assets.xcassets */,
 				63FFAB6620A93436009ACBFC /* LaunchScreen.storyboard */,
 				63FFAB6920A93436009ACBFC /* Info.plist */,
+				6333190920AA695900459DB8 /* GoogleService-Info.plist */,
 			);
 			path = ManufacturingIntelligence;
 			sourceTree = "<group>";
@@ -71,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63FFAB6C20A93436009ACBFC /* Build configuration list for PBXNativeTarget "ManufacturingIntelligence" */;
 			buildPhases = (
+				91767B1F34239C97323E88AA /* [CP] Check Pods Manifest.lock */,
 				63FFAB5620A93435009ACBFC /* Sources */,
 				63FFAB5720A93435009ACBFC /* Frameworks */,
 				63FFAB5820A93435009ACBFC /* Resources */,
@@ -123,12 +191,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FFAB6820A93436009ACBFC /* LaunchScreen.storyboard in Resources */,
+				6333190A20AA695900459DB8 /* GoogleService-Info.plist in Resources */,
 				63FFAB6520A93436009ACBFC /* Assets.xcassets in Resources */,
 				63FFAB6320A93435009ACBFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91767B1F34239C97323E88AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManufacturingIntelligence-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63FFAB5620A93435009ACBFC /* Sources */ = {
@@ -278,6 +368,7 @@
 		};
 		63FFAB6D20A93436009ACBFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E34008A95F8619FCCAB1C2F /* Pods-ManufacturingIntelligence.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +387,7 @@
 		};
 		63FFAB6E20A93436009ACBFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB48808D5EEEF71B6675FA2 /* Pods-ManufacturingIntelligence.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

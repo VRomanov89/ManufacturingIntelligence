@@ -1,0 +1,6 @@
+framework module Pods_ManufacturingIntelligence {
+  umbrella header "Pods-ManufacturingIntelligence-umbrella.h"
+
+  export *
+  module * { export * }
+}
