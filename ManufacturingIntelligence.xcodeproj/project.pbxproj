@@ -10,8 +10,12 @@
 		0BAEED560438AEB7F06C8B79 /* Pods_ManufacturingIntelligence.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FBB0938B6CE76B1CAED9C0 /* Pods_ManufacturingIntelligence.framework */; };
 		6333190A20AA695900459DB8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6333190920AA695900459DB8 /* GoogleService-Info.plist */; };
 		63CB56C420AA6E69007E9ACB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56C320AA6E69007E9ACB /* DataService.swift */; };
+		63CB56C620ABB0A9007E9ACB /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56C520ABB0A9007E9ACB /* AuthVC.swift */; };
+		63CB56C820ABB121007E9ACB /* LoginTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56C720ABB121007E9ACB /* LoginTextFields.swift */; };
+		63CB56CA20ABB3E0007E9ACB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56C920ABB3E0007E9ACB /* AuthService.swift */; };
+		63CB56CC20ABBE6F007E9ACB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56CB20ABBE6F007E9ACB /* FeedVC.swift */; };
+		63CB56CE20ABBE98007E9ACB /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB56CD20ABBE98007E9ACB /* GroupsVC.swift */; };
 		63FFAB5E20A93435009ACBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFAB5D20A93435009ACBFC /* AppDelegate.swift */; };
-		63FFAB6020A93435009ACBFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFAB5F20A93435009ACBFC /* ViewController.swift */; };
 		63FFAB6320A93435009ACBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FFAB6120A93435009ACBFC /* Main.storyboard */; };
 		63FFAB6520A93436009ACBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FFAB6420A93436009ACBFC /* Assets.xcassets */; };
 		63FFAB6820A93436009ACBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FFAB6620A93436009ACBFC /* LaunchScreen.storyboard */; };
@@ -21,9 +25,13 @@
 		2E34008A95F8619FCCAB1C2F /* Pods-ManufacturingIntelligence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManufacturingIntelligence.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManufacturingIntelligence/Pods-ManufacturingIntelligence.debug.xcconfig"; sourceTree = "<group>"; };
 		6333190920AA695900459DB8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63CB56C320AA6E69007E9ACB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		63CB56C520ABB0A9007E9ACB /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		63CB56C720ABB121007E9ACB /* LoginTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFields.swift; sourceTree = "<group>"; };
+		63CB56C920ABB3E0007E9ACB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		63CB56CB20ABBE6F007E9ACB /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		63CB56CD20ABBE98007E9ACB /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		63FFAB5A20A93435009ACBFC /* ManufacturingIntelligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManufacturingIntelligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FFAB5D20A93435009ACBFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63FFAB5F20A93435009ACBFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63FFAB6220A93435009ACBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63FFAB6420A93436009ACBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63FFAB6720A93436009ACBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +79,9 @@
 		6333190520AA686E00459DB8 /* 02. Views */ = {
 			isa = PBXGroup;
 			children = (
+				63CB56C720ABB121007E9ACB /* LoginTextFields.swift */,
+				63CB56CB20ABBE6F007E9ACB /* FeedVC.swift */,
+				63CB56CD20ABBE98007E9ACB /* GroupsVC.swift */,
 			);
 			path = "02. Views";
 			sourceTree = "<group>";
@@ -78,7 +89,7 @@
 		6333190620AA687300459DB8 /* 03. Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				63FFAB5F20A93435009ACBFC /* ViewController.swift */,
+				63CB56C520ABB0A9007E9ACB /* AuthVC.swift */,
 			);
 			path = "03. Controllers";
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				63CB56C320AA6E69007E9ACB /* DataService.swift */,
+				63CB56C920ABB3E0007E9ACB /* AuthService.swift */,
 			);
 			path = "05. Services";
 			sourceTree = "<group>";
@@ -228,8 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CB56CC20ABBE6F007E9ACB /* FeedVC.swift in Sources */,
+				63CB56C620ABB0A9007E9ACB /* AuthVC.swift in Sources */,
+				63CB56C820ABB121007E9ACB /* LoginTextFields.swift in Sources */,
+				63CB56CA20ABB3E0007E9ACB /* AuthService.swift in Sources */,
+				63CB56CE20ABBE98007E9ACB /* GroupsVC.swift in Sources */,
 				63CB56C420AA6E69007E9ACB /* DataService.swift in Sources */,
-				63FFAB6020A93435009ACBFC /* ViewController.swift in Sources */,
 				63FFAB5E20A93435009ACBFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
